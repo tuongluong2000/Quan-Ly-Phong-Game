@@ -1,0 +1,56 @@
+﻿@model IEnumerable<DataBaseAccess.DichVus>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header">
+                    <div class="action">
+                        @Html.ActionLink("Create New", "Create")
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ten Dich Vu</th>
+                                <th>Gia Kinh Doanh</th>
+                                <th>Don Vi Tinh</th>
+                                <th>So Luong Con Lai</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 1;
+                            }
+                            @foreach (var dichVu in Model)
+                            {
+
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@Html.DisplayFor(x => dichVu.TenDichVu) </td>
+                                    <td>@Html.DisplayFor(x => dichVu.GiaKinhDoanh)</td>
+                                    <td>@Html.DisplayFor(x => dichVu.DonViTinh)</td>
+                                    <td>@Html.DisplayFor(x => dichVu.SoLuongConLai)</td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Update", new { id = dichVu.MaDichVu }) |
+                                        @Html.ActionLink("Detail", "Detail", new { id = dichVu.MaDichVu }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = dichVu.MaDichVu })
+                                    </td>
+
+                                </tr>
+                                i++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

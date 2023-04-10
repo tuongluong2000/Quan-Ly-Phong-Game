@@ -1,0 +1,27 @@
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.dll.config
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.dll
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.pdb
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.dll
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.xml
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.CoreCompileInputs.cache
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.CopyComplete
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.dll
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.pdb
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.Migrations.First.resources
+D:\OOP\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.GenerateResource.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.dll.config
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\DataBaseAccess.pdb
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.xml
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.AssemblyReference.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.Migrations.First.resources
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.GenerateResource.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.CoreCompileInputs.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.csproj.CopyComplete
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DataBaseAccess\obj\Debug\DataBaseAccess.pdb

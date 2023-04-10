@@ -1,0 +1,58 @@
+﻿@model IEnumerable<DataBaseAccess.KhachHangs>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header">
+                    <div class="action">
+                        @Html.ActionLink("Create New", "Create")
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ho&Ten</th>
+                                <th>Email</th>
+                                <th>So Dien Thoai</th>
+                                <th>Ten Loai Khach Hang</th>
+                                <th>Ten Loai The Thanh Vien</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 1;
+                            }
+                            @foreach (var khachHang in Model)
+                            {
+
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@Html.DisplayFor(x => khachHang.HoTen) </td>
+                                    <td>@Html.DisplayFor(x => khachHang.Email)</td>
+                                    <td>@Html.DisplayFor(x => khachHang.SoDienThoai)</td>
+                                    <td>@Html.DisplayFor(x => khachHang.TenLoaiKhachHang)</td>
+                                    <td>@Html.DisplayFor(x => khachHang.TenLoaiTheThanhVien) </td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Update", new { id = khachHang.MaKhachHang }) |
+                                        @Html.ActionLink("Detail", "Detail", new { id = khachHang.MaKhachHang }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = khachHang.MaKhachHang })
+                                    </td>
+
+                                </tr>
+                                i++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

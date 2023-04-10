@@ -1,0 +1,89 @@
+﻿@model DataBaseAccess.NhanViens
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <h4>Nhan Vien</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(x => x.HoTen, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.HoTen, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.HoTen, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.DiaChi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.DiaChi, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.DiaChi, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.SoDienThoai, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.SoDienThoai, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.SoDienThoai, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Cmnd, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Cmnd, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Cmnd, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Username, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.Username, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.TrangThai, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.TrangThai, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.TrangThai, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.TenChucVu, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(x => x.TenChucVu, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.TenChucVu, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+}
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<DataBaseAccess.ThietBi>
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header">
+                    <div class="action">
+                        @Html.ActionLink("Create New", "Create")
+                    </div>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Ten Thiet Bi</th>
+                                <th>Loai Thiet Bi</th>
+                                <th>Thong So</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                int i = 1;
+                            }
+                            @foreach (var thietBi in Model)
+                            {
+
+                                <tr>
+                                    <td>@i</td>
+                                    <td>@Html.DisplayFor(x => thietBi.TenThietBi) </td>
+                                    <td>@Html.DisplayFor(x => thietBi.LoaiThietBi)</td>
+                                    <td>@Html.DisplayFor(x => thietBi.MaThongSo)</td>
+                                    <td>
+                                        @Html.ActionLink("Edit", "Update", new { id = thietBi.MaThietBi }) |
+                                        @Html.ActionLink("Detail", "Detail", new { id = thietBi.MaThietBi }) |
+                                        @Html.ActionLink("Delete", "Delete", new { id = thietBi.MaThietBi })
+                                    </td>
+
+                                </tr>
+                                i++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+﻿@model DataBaseAccess.ThietBi
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>Thiet Bi</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenThietBi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenThietBi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HinhAnh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HinhAnh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LoaiThietBi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiThietBi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayCapNhat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayCapNhat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaThongSo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaThongSo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Update", new { id = Model.MaThietBi }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

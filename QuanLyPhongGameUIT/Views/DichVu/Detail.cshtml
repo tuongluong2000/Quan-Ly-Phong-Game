@@ -1,0 +1,90 @@
+﻿@model DataBaseAccess.DichVus
+
+@{
+    ViewBag.Title = "Detail";
+}
+
+<h2>Detail</h2>
+
+<div>
+    <h4>Dich Vu</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MaDichVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaDichVu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenDichVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDichVu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TenLoaiDichVu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenLoaiDichVu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaKinhDoanh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaKinhDoanh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DonViTinh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DonViTinh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoLuongConLai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuongConLai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HinhAnh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HinhAnh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayCapNhat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayCapNhat)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Update", new { id = Model.MaDichVu }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

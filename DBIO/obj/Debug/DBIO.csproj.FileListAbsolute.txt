@@ -1,0 +1,30 @@
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.dll.config
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.dll
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.pdb
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.dll
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.dll
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.SqlServer.dll
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.pdb
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.dll.config
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.xml
+D:\OOP\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.SqlServer.xml
+D:\OOP\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csprojAssemblyReference.cache
+D:\OOP\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csproj.CoreCompileInputs.cache
+D:\OOP\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csproj.CopyComplete
+D:\OOP\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.dll
+D:\OOP\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.pdb
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.dll.config
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DBIO.pdb
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.pdb
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\DataBaseAccess.dll.config
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.xml
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csproj.AssemblyReference.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csproj.CoreCompileInputs.cache
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.csproj.CopyComplete
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.dll
+C:\Users\18521\Downloads\Quan Ly Phong Game\Quan Ly Phong Game\DBIO\obj\Debug\DBIO.pdb
